@@ -1,0 +1,73 @@
+html, body{
+    height:100%;
+  }
+  
+  body{
+    background-color:black;
+    text-align: center;
+    background-size: 100%; 
+  
+  }
+  
+  #wrapper{
+    margin:2.5% auto;
+    background-color: lightgrey; 
+    width:960px;
+    height: 90%;
+    box-sizing: border-box;
+  }
+  
+  #subwrapper{
+    position: relative;    
+  }
+
+  button{
+    display:block;
+    width:40%;
+    height:20%;
+    margin: 0 auto;
+    border:solid;
+    border-color: black; 
+    cursor: pointer;
+    background:lightgray;    
+    font-size: 24px;
+  }
+  
+  img{
+    height:200px;
+  }
+  
+  h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: purple; 
+    padding-top: 2.5%;
+  }
+  
+  h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+  
+  h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #start{
+    margin-top: 10%;
+    border:2px solid black;
+    background: purple;
+  }  
+  
+  
+  button:hover {
+    border:2px solid blue;
+    background: blue;
+  }
+  
+  #counter-number {
+    color: red; 
+  }
